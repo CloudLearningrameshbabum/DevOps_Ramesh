@@ -4,4 +4,4 @@
   tasks:
    - name: Print Test1
      ansible.builtin.debug:
-     
+     msg: "Print stmt"
