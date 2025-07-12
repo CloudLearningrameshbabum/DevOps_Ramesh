@@ -2,18 +2,7 @@
 # ansible webservers -m ansible.builtin.ping
 
 - name: First Example from an Ansible Playbook
-  hosts: App
-  tasks: #List of Tasks 
-  -name: ping the server
-  ansible.builtin.ping:
-- name: 2 Example from an Ansible Playbook
-  hosts: DB
-  tasks: #List of Tasks 
-  - name: ping the server
-    ansible.builtin.ping: 
-
-- name: 3 Example from an Ansible Playbook
-  hosts: web
+  hosts: server 
   tasks: #List of Tasks 
   - name: ping the server
     ansible.builtin.ping: 
