@@ -2,7 +2,7 @@
     hosts: local
     connection: local
     tasks: 
-     -name: Printed
+    - name: Printed
     ansible.builtin.debug:
          msg:"helloworld Printing stmts through Ansible"
 
