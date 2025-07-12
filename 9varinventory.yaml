@@ -1,0 +1,9 @@
+- name: Vars inventory file
+  hosts: local
+  connection: local
+
+  tasks:
+
+   - name:
+     ansible.builtin.debug:
+      msg: "I am learning course {{course }} DURATION OF {{duration }} by the expert Mr {{trainer}}"
