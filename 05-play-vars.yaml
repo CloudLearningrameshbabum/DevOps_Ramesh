@@ -1,0 +1,13 @@
+- name: play level variables
+  hosts: local
+  connection: local
+  vars:
+      course: SharePoint
+      duration: 1 Month
+      Trainer: Ramesh Babu Muchalapuri
+
+  tasks: 
+   - name:
+     ansible.builtin.debug:
+      msg: "Print this"
+      msg: "Hello Course name is {{course}}, total duration {{duration}} by the expert trainer {{trainer}}"
