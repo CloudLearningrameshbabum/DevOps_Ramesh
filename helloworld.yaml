@@ -1,0 +1,9 @@
+  - name: helloworld
+    hosts:  local
+    connection: local
+    tasks: 
+    - name: Print hello world 
+      ansible.built.debug:
+        msg:"helloworld Printing stmts through Ansible"
+        
+
