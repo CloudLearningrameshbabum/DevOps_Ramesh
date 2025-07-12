@@ -7,5 +7,13 @@
   - name: ping the server
     ansible.builtin.ping: 
 
+    - name: 2nd Example from an Ansible Playbook
+      tasks: #List of Tasks 
+      - name: Print
+        ansible.builtin.debug: 
+        msg: "Printed msg"
+
+
+
 
 
