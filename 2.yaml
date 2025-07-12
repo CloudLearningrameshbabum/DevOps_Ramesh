@@ -3,7 +3,7 @@
     connection: local
     tasks: 
      -name: Printed
-       ansible.builtin.debug:
+    ansible.builtin.debug:
          msg:"helloworld Printing stmts through Ansible"
 
 
