@@ -1,5 +1,5 @@
   - name: hello world
-    hosts:  local
+    hosts: local
     connection: local
     tasks: 
      - name: Printed
