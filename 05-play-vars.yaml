@@ -4,7 +4,7 @@
   vars:
       course: SharePoint
       duration: 1 Month
-      Trainer: Ramesh Babu Muchalapuri
+      trainer: Ramesh Babu Muchalapuri
 
   tasks: 
    - name:
