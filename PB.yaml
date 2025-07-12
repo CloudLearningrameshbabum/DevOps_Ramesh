@@ -2,7 +2,10 @@
 # ansible webservers -m ansible.builtin.ping
 
 - name: Example from an Ansible Playbook
-  ansible.builtin.ping:
+  hosts: FrontEndServers 
+  tasks:  
+  - name: ping the server
+    ansible.builtin.ping: 
 
 
 
