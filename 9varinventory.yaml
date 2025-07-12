@@ -1,7 +1,6 @@
 - name: Vars inventory file
   hosts: local
   connection: local
-
   tasks:
    - name: print course info
      ansible.builtin.debug:
