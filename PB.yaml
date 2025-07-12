@@ -1,8 +1,8 @@
 # Test we can logon to 'webservers' and execute python with json lib.
 # ansible webservers -m ansible.builtin.ping
 
-- name: Example from an Ansible Playbook
-  hosts: 44.204.203.188 
+- name: First Example from an Ansible Playbook
+  hosts: server 
   tasks:  
   - name: ping the server
     ansible.builtin.ping: 
