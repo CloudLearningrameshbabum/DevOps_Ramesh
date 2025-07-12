@@ -2,6 +2,14 @@
   hosts: local
   connection: local
   tasks:
-   - name: Print Test1
+   - name: Task1
      ansible.builtin.debug:
-    
+  tasks:
+   - name: Task2
+     ansible.builtin.debug:   
+  tasks:
+   - name: Task3
+     ansible.builtin.debug:
+  tasks:
+   - name: Task4
+     ansible.builtin.debug:   
